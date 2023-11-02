@@ -27,7 +27,6 @@ document.getElementById("btn-next").addEventListener("click", function () {
     if(currentImg == images.length - 1){
         images[currentImg].classList.add("active");
         currentImg=0;
-        images[currentImg].classList.remove("active");
 
     }
 });

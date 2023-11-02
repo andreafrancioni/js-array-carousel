@@ -1,0 +1,25 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #494848;
+}
+
+.images{
+    height: 20rem;
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: none;
+}
+
+.images img.active{
+    display: block;
+}
